@@ -22,6 +22,9 @@ services:
       SQL_HOST: "db"
       SQL_PORT: "5432"
       DATABASE: "postgres"
+      DJANGO_SUPERUSER_USERNAME: "admin"
+      DJANGO_SUPERUSER_PASSWORD: "VeryHardPassword"
+      DJANGO_SUPERUSER_EMAIL: "admin@example.com"
     networks:
       - web_network
       - nginx_network
