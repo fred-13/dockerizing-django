@@ -1,5 +1,8 @@
 # Dockerizing Django with Postgres, Gunicorn, and Nginx
 
+Status of Last Docker images build:<br>
+<img src="https://github.com/fred-13/dockerizing-django/workflows/Docker_Image_Build_and_Push/badge.svg?branch=master"><br>
+
 ### Run docker-compose
 
     ```
